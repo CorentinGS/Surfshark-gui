@@ -16,10 +16,10 @@ compress-best:
 	upx -9 --best bin/$(NAME)
 
 install:
-	cp bin/$(NAME) /usr/local/bin/$(NAME)
+	sudo cp bin/$(NAME) /usr/local/bin/$(NAME)
 
 uninstall:
-	rm /usr/local/bin/$(NAME)
+	sudo rm /usr/local/bin/$(NAME)
 
 clean:
 	rm -rf bin
