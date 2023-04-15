@@ -1,4 +1,4 @@
-# OpenVPN-GUI
+# Surfshark-GUI
 
 A simple GUI implementation for OpenVPN to easily add my configuration options.
 
