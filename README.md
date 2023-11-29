@@ -20,6 +20,20 @@ VPN_PASSWORD=[your password]
 Download the config file from your VPN provider and place it in the `/etc/wireguard` folder.
 Make sure to rename the file to the following format: `fr.par.conf` (country.city.conf)
 
+## Build from source
+
+### Setup
+
+First you need to install the dependencies using the following link [Fyne](https://developer.fyne.io/started/)
+
+### Build
+
+To build the project you can use the following command:
+
+```
+make all
+```
+
 ## License
 
 This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details
